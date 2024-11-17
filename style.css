@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .attendance-form,
+  .attendance-summary,
+  .attendance-graph {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  @media (max-width: 600px) {
+    .attendance-form,
+    .attendance-summary,
+    .attendance-graph {
+      width: 90%;
+      margin: 10px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark-mode input,
+  .dark-mode select,
+  .dark-mode button {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dark-mode table {
+    color: white;
+    background-color: #444;
+  }
+  
+  .dark-mode button {
+    background-color: #6c757d;
+  }
+  
+  .dark-mode button:hover {
+    background-color: #5a636b;
+  }
+  
